@@ -1,0 +1,1 @@
+*/10 * * * * cd /Users/rahulkumar/Documents/GitHub/ucityDynamic_risk_assesment && /Users/rahulkumar/Documents/GitHub/ucityDynamic_risk_assesment/.venv/bin/python fullprocess.py

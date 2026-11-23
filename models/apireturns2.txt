@@ -1,0 +1,109 @@
+Predictions
+{
+  "predictions": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ]
+}
+
+F1 score
+{
+  "f1_score": 0.5714285714285714
+}
+
+Summary statistics
+[
+  {
+    "column": "lastmonth_activity",
+    "mean": 576.875,
+    "median": 455.0,
+    "std": 636.7155537825124
+  },
+  {
+    "column": "lastyear_activity",
+    "mean": 1656.875,
+    "median": 1300.0,
+    "std": 1754.8971021930927
+  },
+  {
+    "column": "number_of_employees",
+    "mean": 36.75,
+    "median": 22.5,
+    "std": 39.369132215843564
+  },
+  {
+    "column": "exited",
+    "mean": 0.5,
+    "median": 0.5,
+    "std": 0.5345224838248488
+  }
+]
+
+Ingestion execution time (seconds)
+0.2267782920098398
+
+Training execution time (seconds)
+0.7789261669968255
+
+Missing data
+[
+  {
+    "column": "corporation",
+    "missing_count": 0,
+    "percentage": 0.0,
+    "total_count": 8
+  },
+  {
+    "column": "lastmonth_activity",
+    "missing_count": 0,
+    "percentage": 0.0,
+    "total_count": 8
+  },
+  {
+    "column": "lastyear_activity",
+    "missing_count": 0,
+    "percentage": 0.0,
+    "total_count": 8
+  },
+  {
+    "column": "number_of_employees",
+    "missing_count": 0,
+    "percentage": 0.0,
+    "total_count": 8
+  },
+  {
+    "column": "exited",
+    "missing_count": 0,
+    "percentage": 0.0,
+    "total_count": 8
+  }
+]
+
+Dependency versions
+package_name	installed_version	latest_version
+click	8.3.1	8.5.1
+cycler	0.12.1	0.12.1
+Flask	3.1.3	3.1.3
+gunicorn	23.0.0	27.0.1
+itsdangerous	2.2.0	2.2.0
+Jinja2	3.1.6	3.1.6
+joblib	1.5.3	1.6.0
+kiwisolver	1.5.0	1.5.1
+MarkupSafe	3.0.3	3.0.4
+matplotlib	3.10.8	3.11.2
+numpy	2.3.5	2.5.5
+pandas	2.3.3	3.1.1
+Pillow	12.3.0	13.0.0
+pyparsing	3.3.2	3.3.3
+python-dateutil	2.9.0.post0	4.0.0
+pytz	2026.1.post1	2026.6
+requests	2.34.2	2.34.2
+scikit-learn	1.8.0	1.9.1
+scipy	1.16.3	1.18.1
+seaborn	0.13.2	0.13.2
+six	1.17.0	1.17.0
+threadpoolctl	3.6.0	3.8.0
+Werkzeug	3.1.6	3.1.9
